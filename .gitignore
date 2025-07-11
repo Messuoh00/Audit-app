@@ -1,0 +1,49 @@
+# Python bytecode/cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# VSCode/IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Uploaded evidence
+uploads/
+
+# Generated reports/exports
+*.pdf
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Temp files
+*.tmp
+*.log
+
+# Data files (optional—if you keep a sample for test only)
+assessment_controls.xlsx
+
+# OS generated files
+ehthumbs.db
+desktop.ini
+
+# NiceGUI's own cache or temp files, if any
+.nicegui/
