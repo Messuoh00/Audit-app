@@ -3,10 +3,11 @@ import os
 import pandas as pd
 import plotly.express as px
 from pdf_export import export_pdf
-from session_state import main_card, session, reset_session, to_step,refresh
 
 
 def step_results():
+    from session_state import main_card, session, reset_session, to_step,refresh
+
     if not session["questionnaire"] or not session["answers"]:
         to_step(2)
         return
