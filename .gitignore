@@ -38,8 +38,6 @@ uploads/
 *.tmp
 *.log
 
-# Data files (optional—if you keep a sample for test only)
-assessment_controls.xlsx
 
 # OS generated files
 ehthumbs.db
