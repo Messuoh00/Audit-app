@@ -1,0 +1,6 @@
+nicegui
+pandas
+plotly
+openpyxl
+reportlab
+kaleido
